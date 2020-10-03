@@ -108,6 +108,10 @@
     position: absolute;
     color: transparent;
 }
-.hemel img::after{
-    content: 'Asif Uddin Ahmed Hemel';
+.hemel h3{
+    font-family: 'Sansita Swashed', cursive;
+    position: absolute;
+    top: 660px;
+    left: 1350px;
+    font-size: 25px;
 }
