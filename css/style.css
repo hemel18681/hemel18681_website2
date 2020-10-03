@@ -25,7 +25,7 @@
 }
 .leftmenu{
     width: 25%;
-    line-height: 80px;
+    line-height: 100px;
     float: left;
 }
 .leftmenu h4{
@@ -34,4 +34,29 @@
     color: white;
     font-size: 20px;
     font-family: 'Montserrat',sans-serif;
+}
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+}
+.rightmenu ul{
+    margin-left:600px ;
+}
+.rightmenu ul li{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+#firstlist{
+    color: orange;
+}
+.rightmenu ul li:hover{
+    color: orange;
 }
